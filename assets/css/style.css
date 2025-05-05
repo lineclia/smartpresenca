@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF5E0;
+}
+.contener{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login{
+    background-color: white;
+    padding: 65px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgb(150, 150, 150);
+    z-index: 2;
+}
+.botao{
+    background-color: rgba(40, 90, 142, 1);
+    color: white;
+    border-radius: 5px; 
+    width: 200px; 
+    height: 30px; 
+    border: none;
+}
+.cadastro{
+    background-color: rgba(217, 217, 217, 1);
+    color: rgba(111, 105, 105, 1);
+    padding: 8px;
+    border-radius: 5px;
+    width: 180px;
+    border: none;
+    box-shadow: inset 1px 1px 3px rgb(121, 121, 121);
+}
+.logo{
+    background-color: rgba(40, 90, 142, 1);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: -25px;
+    border-radius: 10px;
+}
+.logo img {
+    width: 222px;
+}
+.retangulo1{
+    position: absolute;
+    background-color: rgb(40, 90, 142);
+    width: 1000px;
+    height: 50px;
+    box-shadow: 3px 3px 2px rgb(150, 150, 150);
+    top: 15px; 
+    left: -5px;
+    border-radius: 5px;
+}
+.retangulo2{
+    position: absolute;
+    background-color: rgba(250, 194, 13, 1);
+    width: 890px;
+    height: 50px;
+    box-shadow: 3px 3px 2px rgb(150, 150, 150);
+    top: 40px; 
+    left: 0px;
+    border-radius: 5px;
+}
+.retangulo3{
+    position: absolute;
+    background-color: rgb(40, 90, 142);
+    width: 1000px;
+    height: 50px;
+    box-shadow: 3px 3px 2px rgb(150, 150, 150); 
+    z-index: -1; 
+    bottom: 15px; 
+    right: 0px;
+    border-radius: 5px;
+}
+.retangulo4{
+    position: absolute;
+    background-color: rgba(250, 194, 13, 1);
+    width: 890px;
+    height: 50px;
+    box-shadow: 3px 3px 2px rgba(150, 150, 150, 0.61); 
+    z-index: -1; 
+    bottom: 40px; 
+    right: 0px;
+    border-radius: 5px;
+  }
